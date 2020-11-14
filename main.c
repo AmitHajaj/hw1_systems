@@ -10,7 +10,7 @@ int main()
     printf("please insert a real number.");
     scanf("%lf", &in);
     
-    int n =(int)(in<0 ? (in-0.5) : (in+0.5));
+    int n =(int) in;
 
     printf("The value of f(x)= e^x+x^3-2 at the point %lf is: %f\n", in, addition(addition((float)Exponent(n), (float)Power(in, 3)), (float)(-2.0)));
 
